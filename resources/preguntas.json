@@ -1,0 +1,44 @@
+{
+  "preguntas": {
+    "pregunta1": {
+      "pregunta": "¿Qué significa el acrónimo HTML?",
+      "respuestas": {
+        "res1": "Hyper Text Markup Language",
+        "res2": "High Tech Multi Language",
+        "res3": "Hyperlink and Text Management Language",
+        "res4": "Home Tool Markup Language"
+      },
+      "respuestaCorrecta": "Hyper Text Markup Language"
+    },
+    "pregunta2": {
+      "pregunta": "¿Cuál de los siguientes lenguajes de programación es un lenguaje interpretado?",
+      "respuestas": {
+        "res1": "C++",
+        "res2": "Java",
+        "res3": "Python",
+        "res4": "C#"
+      },
+      "respuestaCorrecta": "Python"
+    },
+    "pregunta3": {
+      "pregunta": "¿Qué es un bug en el contexto de la programación?",
+      "respuestas": {
+        "res1": "Una característica no deseada en el software.",
+        "res2": "Una técnica de programación avanzada.",
+        "res3": "Una herramienta de depuración.",
+        "res4": "Una función principal de un programa."
+      },
+      "respuestaCorrecta": "Una característica no deseada en el software."
+    },
+    "pregunta4": {
+      "pregunta": "¿Cuál de los siguientes no es un lenguaje de programación?",
+      "respuestas": {
+        "res1": "CSS",
+        "res2": "JavaScript",
+        "res3": "SQL",
+        "res4": "HTTP"
+      },
+      "respuestaCorrecta": "HTTP"
+    }
+  }
+}

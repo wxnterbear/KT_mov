@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "8fdb50ab-b65b-4ffa-930b-9501f5a2b726",
+		"name": "KOTLIN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34384420"
+	},
+	"item": [
+		{
+			"name": "https://trivia-2b484-default-rtdb.firebaseio.com/preguntas.json",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pregunta\": \"¿Qué significa el acrónimo HTML?\",\r\n    \"respuestas\": {\r\n        \"res1\": \"Hyper Text Markup Language\",\r\n        \"res2\": \"High Tech Multi Language\",\r\n        \"res3\": \"Hyperlink and Text Management Language\",\r\n        \"res4\": \"Home Tool Markup Language\"\r\n    },\r\n    \"respuestaCorrecta\": \"Hyper Text Markup Language\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trivia-2b484-default-rtdb.firebaseio.com/preguntas.json",
+					"protocol": "https",
+					"host": [
+						"trivia-2b484-default-rtdb",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"preguntas.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://trivia-2b484-default-rtdb.firebaseio.com/preguntas.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    \"pregunta1\": {\r\n        \"ans\": \"Hyper Text Markup Language\",\r\n        \"pregunta\": \"¿Qué significa el acrónimo HTML?\",\r\n        \"respuestas\": {\r\n            \"res1\": \"Hyper Text Markup Language\",\r\n            \"res2\": \"High Tech Multi Language\",\r\n            \"res3\": \"Hyperlink and Text Management Language\",\r\n            \"res4\": \"Home Tool Markup Language\"\r\n        }\r\n    },",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://trivia-2b484-default-rtdb.firebaseio.com/preguntas.json",
+					"protocol": "https",
+					"host": [
+						"trivia-2b484-default-rtdb",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"preguntas.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KOT",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Codigo 200 y preguntas\"), function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"    pm.expect(pm.response.text()).to.include(\"JavaScript\");\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://trivia-2b484-default-rtdb.firebaseio.com/preguntas.json",
+					"protocol": "https",
+					"host": [
+						"trivia-2b484-default-rtdb",
+						"firebaseio",
+						"com"
+					],
+					"path": [
+						"preguntas.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

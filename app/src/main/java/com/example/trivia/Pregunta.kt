@@ -1,7 +1,7 @@
 package com.example.trivia
 
-class Pregunta {
-    lateinit var pregunta: String
-    lateinit var respuestaCorrecta: String
-    lateinit var respuestas: Array<String>
+import com.google.firebase.database.IgnoreExtraProperties
+
+@IgnoreExtraProperties
+data class Pregunta(val pregunta: String?, var respuestaCorrecta: String?, var respuestas: List<String?>) {
 }

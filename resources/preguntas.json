@@ -40,5 +40,13 @@
       },
       "respuestaCorrecta": "HTTP"
     }
+  },
+  "usuarios":{
+    "fhaduysahkdwsa":{
+      "name": "NAME",
+      "lastname": "APELLID",
+      "email": "asgjkdgksja@gmal.com",
+      "pass": "PASS"
+    }
   }
 }

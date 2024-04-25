@@ -8,7 +8,7 @@
     android:background="#F6DDCC">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt_npregunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pregunta numero x"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.096" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txt_pregunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="{Pregunta}"
@@ -41,7 +41,9 @@
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.332" />
+        app:layout_constraintVertical_bias="0.332"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/txt_res2"
@@ -53,7 +55,9 @@
         app:layout_constraintHorizontal_bias="0.474"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.426" />
+        app:layout_constraintVertical_bias="0.426"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/txt_res3"
@@ -65,7 +69,9 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.546"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/txt_res4"
@@ -77,5 +83,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.648" />
+        app:layout_constraintVertical_bias="0.648"
+        android:clickable="true"
+        android:focusable="true" />
 </androidx.constraintlayout.widget.ConstraintLayout>

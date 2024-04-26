@@ -19,8 +19,12 @@
             android:name=".SignUp"
             android:exported="false" />
         <activity
+            android:name=".Questions"
+            android:exported="false" />
+        <activity
             android:name=".LogIn"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

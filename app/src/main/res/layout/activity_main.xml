@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/pre1" />
 
     <EditText
-        android:id="@+id/correo"
+        android:id="@+id/Etext_correo"
         android:layout_width="267dp"
         android:layout_height="60dp"
         android:ems="10"
@@ -53,7 +53,7 @@
         app:layout_constraintVertical_bias="0.56" />
 
     <EditText
-        android:id="@+id/contraseña"
+        android:id="@+id/Etxt_pass"
         android:layout_width="264dp"
         android:layout_height="60dp"
         android:ems="10"
@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="0.724" />
 
     <Button
-        android:id="@+id/b_ingresar"
+        android:id="@+id/btn_ingresar"
         android:layout_width="283dp"
         android:layout_height="57dp"
         android:backgroundTint="#A04000"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.862" />
 
     <TextView
-        android:id="@+id/t_registro"
+        android:id="@+id/txt_registro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jerseyr"
@@ -94,6 +94,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+        app:layout_constraintVertical_bias="0.948"
+        android:clickable="true"
+        android:focusable="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
